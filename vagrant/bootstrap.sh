@@ -37,6 +37,7 @@ mv porosity /usr/local/bin && chmod 0755 /usr/local/bin/porosity
 
 # copy examples
 cp -r /vagrant/examples /home/ubuntu/quorum-examples
+cp -r /home/vagrant/quorum /home/ubuntu/quorum
 chown -R ubuntu:ubuntu /home/ubuntu/quorum /home/ubuntu/quorum-examples
 
 # done!
